@@ -7,3 +7,17 @@ h5{
   font-size: 50px;
   color: white;
 }
+
+ul{
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.main-nav-list{
+  border: 2px solid white;
+}
