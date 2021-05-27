@@ -1,6 +1,5 @@
 body{
   background: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg');
-
 }
 
 h5{
@@ -20,11 +19,24 @@ ul{
   font-size: 20px;
 }
 
-.main-nav-list{
-  border: 2px solid white;
+h6{
+  display: flex;
+
 }
 
-.main-search-bar {
+.main-nav-list{
+  border: 2px solid white;
+
+.search-bar {
   display: flex;
   justify-content: center;
+
+}
+i{
+  position: absolute;
+  max-width: 150px;
+  max-height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
 }
